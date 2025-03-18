@@ -35,3 +35,9 @@ function sortearAmigo(){
     limparListaAmigos.innerHTML = '';
     amigos = [];
 }
+
+function começarJogo() {
+    let limparAmigoSorteado = document.getElementById ('resultado');
+    limparAmigoSorteado.innerHTML = '';
+    amigoSorteado = [];
+}
